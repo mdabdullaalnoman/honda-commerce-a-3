@@ -1,0 +1,95 @@
+*{
+    text-decoration: none !important;
+    border: none !important;
+}
+html{
+    overflow-x: hidden !important;
+}
+header{
+    width: 100%;
+    background:#264653;
+}
+
+button.nav-button {
+    margin-left: 50px;
+    background-color: #E76F51;
+    padding: 10px 15px;
+    color: white;
+    border-radius: .2rem;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white !important;
+    font-size: 16px !important;
+}
+.hero-content{
+    color: white;
+}
+.hero-content p{
+    color: #E0E0E0;
+}
+.hero-content button{
+    background-color: #E76F51;
+    padding: 10px 15px;
+    color: white;
+    border-radius: .2rem;
+}
+
+/* -------------------
+fixtures section start 
+--------------------------*/
+
+.fetured-tittle p{
+  color: #E76F51;
+  font-size: 14px;
+}
+.filter-gray{
+    filter: grayscale(100%);
+}
+
+/* -----------------------
+Clients section start
+-------------------------- */
+.clints-tittle span{
+   color: #E76F51;
+}
+.clint-card{
+    border: 1px solid #DEDEDE !important;
+}
+svg.h-5.w-5 {
+    color: #E76F51;
+    
+}
+.clint-card p{
+    color: #6C6C6C;
+    font-size: 16px;
+    margin: 0;
+}
+
+.app{
+    border: 1px solid gainsboro !important;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: white !important;
+}
+
+/* ---------------------
+footer section start
+---------------------- */
+footer{
+    background-color: #0B0D17;
+}
+footer .footer-menu a , p{
+    color: white;
+    font-size: 16px;
+    margin-right: 24px;
+}
+footer .get-app{
+    color: #D9DBE1;
+    font-size: 18px;
+}
+@media (max-width:576px) {
+    button.nav-button{
+        margin:0px;
+    }
+}
