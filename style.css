@@ -65,13 +65,18 @@ svg.h-5.w-5 {
     margin: 0;
 }
 
-.app{
-    border: 1px solid gainsboro !important;
-    background-color: black;
-    padding: 10px 5px;
-    border-radius: 10px;
-    color: white !important;
+/* collups */
+button.accordion-button.collapsed {
+    font-weight: 500;
+    font-size: 20px;
+    color: #383838;
 }
+button.accordion-button {
+    font-weight: 500;
+    font-size: 20px;
+    color: #383838;
+}
+
 
 /* ---------------------
 footer section start
@@ -87,6 +92,13 @@ footer .footer-menu a , p{
 footer .get-app{
     color: #D9DBE1;
     font-size: 18px;
+}
+.app{
+    border: 1px solid gainsboro !important;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: white !important;
 }
 .row.app {
     margin-top: 20px;
