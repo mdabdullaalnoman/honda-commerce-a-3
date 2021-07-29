@@ -88,6 +88,15 @@ footer .get-app{
     color: #D9DBE1;
     font-size: 18px;
 }
+.row.app {
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.app-img i{
+    font-size: 30px;
+}
+
+
 @media (max-width:576px) {
     button.nav-button{
         margin:0px;
